@@ -1,4 +1,4 @@
 @echo off
-title TermCord by Ezermoz
+title TermCord by PeacefulTrees
 node index.js
 pause
