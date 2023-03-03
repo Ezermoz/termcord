@@ -54,7 +54,7 @@ function getMessage() {
 }
 client.on('ready', async() => {
     console.log("        *   )                  (            (     \n".red+"      ` )  /(  (  (      )     )\\      (    )\\ )  \n".red+"       ( )(_))))\\ )(    (    (((_)  (  )(  (()/(  \n".red+"      (_(_())/((_|()\   )\\  ')\\___  )\\(()\\  ((_)) \n".red+"      |_   _(_))  ((_)_((_))((/ __|((_)((_) _| |  \n".red+"        | | / -_)| '_| '  \\()| (__/ _ \\ '_/ _` |  \n".red+"        |_| \\___||_| |_|_|_|  \\___\\___/_| \\__,_|  \n".red)
-    console.log("[+] > Made by Ezermoz for the lol".green)
+    console.log("[+] > Made by PeacefulTrees for the lol".green)
     rl.question('What the server id? '.blue, (getResponse) => {
         let available = client.guilds.cache.get(getResponse);
         if(!available) { 
